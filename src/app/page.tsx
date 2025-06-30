@@ -1,9 +1,12 @@
-import TipCalculator from '@/components/TipCalculator';
+
+import React, { Suspense } from 'react';
+import HomePageContent from '@/components/layout/HomePageContent';
+import { LoadingScreen } from '@/components/layout/LoadingScreen';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-background">
-      <TipCalculator />
-    </main>
+    <Suspense fallback={<LoadingScreen />}>
+      <HomePageContent />
+    </Suspense>
   );
 }

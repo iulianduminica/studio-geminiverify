@@ -1,0 +1,220 @@
+
+{
+  "Global": {
+    "appName": "Clătite pe Steroizi",
+    "appDescription": "Adu ingredientele, îți spun eu cum să le folosești."
+  },
+  "Onboarding": {
+    "title": "Bun venit, {{name}}!",
+    "description": "Hai să-ți configurăm profilul pentru a începe călătoria ta în fitness.",
+    "age": "Vârstă",
+    "dateOfBirth": "Data nașterii",
+    "day": "Ziua",
+    "month": "Luna",
+    "year": "Anul",
+    "weight": "Greutate (kg)",
+    "height": "Înălțime (cm)",
+    "gender": "Sex",
+    "male": "Masculin",
+    "female": "Feminin",
+    "other": "Altceva",
+    "button": "Creează-mi Profilul",
+    "loading": "Se creează profilul...",
+    "errors": {
+      "required": "Acest câmp este obligatoriu",
+      "realGender": "Trebuie să selectezi un sex real.",
+      "invalidDate": "Te rugăm să introduci o dată validă.",
+      "invalidDay": "Te rugăm să introduci o zi validă.",
+      "invalidMonth": "Te rugăm să introduci o lună validă.",
+      "invalidYear": "Te rugăm să introduci un an valid.",
+      "incompleteYear": "Te rugăm să introduci un an din 4 cifre.",
+      "invalidDayForMonth": "Luna aceasta nu are atâtea zile.",
+      "dateInFuture": "Data nașterii nu poate fi în viitor.",
+      "yearTooFar": "Te rugăm să introduci un an mai recent."
+    }
+  },
+  "Settings": {
+    "title": "Setări",
+    "fiveDaySplit": "Split 5 zile",
+    "threeDaySplit": "Split 3 zile",
+    "display": {
+      "title": "Opțiuni de afișare",
+      "showCardio": "Arată bicicleta fixă",
+      "swap": "Schimbă ordinea antrenamentelor",
+      "theme": "Temă",
+      "language": "Limbă",
+      "light": "Luminos",
+      "dark": "Întunecat"
+    },
+    "profile": {
+      "title": "Setări Profil",
+      "editProfile": "Editează Profilul",
+      "description": "Actualizează-ți informațiile personale aici.",
+      "save": "Salvează Modificările",
+      "saving": "Se salvează...",
+      "saved": "Salvat!",
+      "successTitle": "Profil Actualizat",
+      "successDescription": "Informațiile tale au fost actualizate cu succes.",
+      "yearsOld": "ani"
+    }
+  },
+  "AdminPanel": {
+    "createInvite": "Creează invitație",
+    "title": "Creează o invitație",
+    "description": "Generează un link unic pentru a invita un utilizator nou pe platformă.",
+    "generateButton": "Generează invitație",
+    "loading": "Se creează linkul de invitație...",
+    "linkGeneratedTitle": "Link Generat!",
+    "linkGeneratedDescription": "Distribuie acest link noului utilizator. Poate fi folosit o singură dată.",
+    "copyToClipboard": "Copiază în clipboard",
+    "done": "Gata",
+    "toast": {
+      "copiedTitle": "Link Copiat!",
+      "copiedDescription": "Linkul de invitație a fost copiat în clipboard.",
+      "failedTitle": "Invitația a eșuat"
+    }
+  },
+  "Footer": {
+    "autoSave": "Datele tale sunt salvate automat.",
+    "workoutId": "ID Antrenament:"
+  },
+  "Header": {
+    "statusConnecting": "Conectare la server...",
+    "statusSyncing": "Sincronizare date...",
+    "statusSynced": "Datele sunt actualizate.",
+    "statusError": "Eroare de conexiune.",
+    "statusOffline": "Mod offline. Datele nu se salvează.",
+    "statusNoProfile": "Niciun plan de antrenament găsit.",
+    "userWorkout": "Antrenamentul lui {{userName}}",
+    "yourCode": "ID-ul tău de antrenament:",
+    "copyCode": "Copiază ID",
+    "signOut": "Deconectare",
+    "signIn": "Autentificare",
+    "toastCopiedTitle": "Copiat!",
+    "toastCopiedDescription": "ID-ul de antrenament a fost copiat."
+  },
+  "LoginPage": {
+    "title": "Autentificare",
+    "description": "Intră în cont să-ți primești clătitele zemoase.",
+    "button": "Autentifică-te cu Google",
+    "loading": "Autentificare...",
+    "error": "A apărut o eroare necunoscută la autentificare.",
+    "uninvited": "Este necesară o invitație pentru a vă înregistra. Vă rugăm să solicitați un link de invitație de la un administrator."
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Schimbă în modul {theme}"
+  },
+  "CardioProtocol": {
+    "title": "Bicicletă fixă",
+    "warmUp": "Încălzire",
+    "duration": "Durată (min)",
+    "level": "Nivel",
+    "rpm": "RPM",
+    "main": "Intensitate medie - Principal",
+    "cycles": "Cicluri",
+    "highIntensity": "Intensitate ridicată",
+    "coolDown": "Răcire",
+    "durationPlaceholder": "min",
+    "levelPlaceholder": "niv",
+    "rpmPlaceholder": "rpm",
+    "cyclesPlaceholder": "x"
+  },
+  "ExerciseCard": {
+    "set": "Setul {{i}}",
+    "weight": "Greutate (kg)",
+    "level": "Nivel",
+    "kgPlaceholder": "kg",
+    "levelPlaceholder": "ex., 5",
+    "weightPlaceholder": "ex., 10",
+    "toggleSplit": "Comută Mod Greutate Split",
+    "reps": "Repetări:",
+    "restStopwatch": "Cronometru pauză",
+    "machineBusy": "Aparat ocupat",
+    "markAsDone": "Marchează ca terminat",
+    "completed": "Terminat",
+    "undo": "Anulează terminarea",
+    "sortWeights": "Sortează greutățile"
+  },
+  "StrengthSplit": {
+    "title": "Split greutăți",
+    "cancelWorkout": "Anulează",
+    "inProgress": "În Progres",
+    "completed": "Terminat!",
+    "start": "Start",
+    "breakTime": "E timpul pentru o pauză!",
+    "endBreak": "Termină pauza",
+    "restartDay": "Repornește ziua",
+    "finishWeek": "Termină săptămâna și resetează Tot",
+    "dialogs": {
+      "cancelTitle": "Ești sigur?",
+      "cancelDescription": "Acest lucru va anula sesiunea curentă de antrenament. O poți începe din nou mai târziu.",
+      "cancelConfirm": "Da, Anulează",
+      "cancelDeny": "Nu, Continuă",
+      "restartTitle": "Ești sigur că vrei să repornești?",
+      "restartDescription": "Acest lucru va reseta progresul pentru această zi. Această acțiune nu poate fi anulată.",
+      "restartConfirm": "Continuă",
+      "restartDeny": "Anulează",
+      "finishTitle": "Felicitări!",
+      "finishDescription": "Ai terminat toate antrenamentele pe săptămâna aceasta. Progresul tău va fi resetat. Ești gata să începi o nouă săptămână?",
+      "finishConfirm": "Resetează săptămâna",
+      "finishDeny": "Nu încă"
+    },
+    "fiveDaySplit": {
+      "day1": "Ziua 1: Piept",
+      "day2": "Ziua 2: Spate",
+      "day3": "Ziua 3: Picioare",
+      "day4": "Ziua 4: Umeri",
+      "day5": "Ziua 5: Brațe (biceps & triceps)"
+    },
+    "threeDaySplit": {
+      "day1": "Ziua 1: Piept & Biceps",
+      "day2": "Ziua 2: Spate & Umeri",
+      "day3": "Ziua 3: Picioare & Triceps"
+    }
+  },
+  "LoadingScreen": {
+    "loading": "Se încarcă antrenamentul"
+  },
+  "Toasts": {
+      "invalidCodeTitle": "Plan Invalid",
+      "invalidCodeDescription": "Nu s-a putut găsi un plan de antrenament cu ID-ul furnizat.",
+      "authErrorTitle": "Eroare de Autentificare",
+      "authErrorDescription": "Nu ești autentificat.",
+      "permissionErrorTitle": "Eroare de Permisiune Firestore",
+      "permissionErrorDescription": "Regulile bazei de date blochează accesul. Te rugăm să copiezi regulile de mai jos și să le adaugi în Consola Firebase (Firestore > Rules).",
+      "copyRules": "Copiază regulile",
+      "rulesCopiedTitle": "Copiat!",
+      "rulesCopiedDescription": "Regulile Firestore au fost copiate.",
+      "authFailedTitle": "Autentificare Eșuată",
+      "authFailedDescription": "Nu s-a putut autentifica. Verifică cheia API Firebase și setările de autentificare.",
+      "cannotCancelTitle": "Nu se poate anula",
+      "cannotCancelDescription": "Nu poți anula un antrenament care a început deja.",
+      "invalidInviteTitle": "Invitație Invalidă",
+      "invalidInviteDescription": "Acest link de invitație este invalid sau a fost deja folosit.",
+      "inviteRequiredTitle": "Invitație Necesară",
+      "inviteRequiredDescription": "Este necesară o invitație de la un administrator pentru a utiliza această aplicație."
+  },
+  "Exercises": {
+    "dumbbellBenchPress": "Dumbbell Bench Press",
+    "inclineDumbbellBenchPress": "Incline Dumbbell Bench Press",
+    "machineFly": "Machine Fly (Pec Deck)",
+    "cableLatPulldown": "Cable Lat Pulldown",
+    "cableSeatedRow": "Cable Seated Row",
+    "machineVerticalRow": "Machine Vertical Row",
+    "machineLegPress": "Machine Leg Press",
+    "machineSeatedLegCurl": "Machine Seated Leg Curl",
+    "machineLegExtension": "Machine Leg Extension",
+    "machineShoulderPress": "Machine Shoulder Press",
+    "machineDeltoidRaise": "Machine Deltoid Raise",
+    "facePulls": "Face Pulls (with Rope)",
+    "altBicepCurl": "Biceps: Alt. Bicep Curl",
+    "hammerCurl": "Biceps: Hammer Curl",
+    "machineDip": "Triceps: Machine Dip",
+    "cablePushdown": "Triceps: Cable Pushdown",
+    "tricepKickback": "Triceps: Tricep Kickback",
+    "hints": {
+      "dragDown": "(tragi în jos)",
+      "raiseUp": "(ridici sus)"
+    }
+  }
+}

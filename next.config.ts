@@ -1,20 +1,21 @@
-import type {NextConfig} from 'next';
+
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // By default, Next.js will fail your build if you have TypeScript errors.
+  // This is a good thing, but it can be frustrating during development.
+  // We are setting this to `false` to enforce good practices.
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
+        hostname: 'i.giphy.com',
       },
     ],
   },

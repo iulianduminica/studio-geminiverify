@@ -1,0 +1,220 @@
+
+{
+  "Global": {
+    "appName": "Pancakes on Steroids",
+    "appDescription": "Bring the ingredients, I'll tell you how to use them."
+  },
+  "Onboarding": {
+    "title": "Welcome, {{name}}!",
+    "description": "Let's set up your profile to get you started on your fitness journey.",
+    "age": "Age",
+    "dateOfBirth": "Date of Birth",
+    "day": "Day",
+    "month": "Month",
+    "year": "Year",
+    "weight": "Weight (kg)",
+    "height": "Height (cm)",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "button": "Create My Profile",
+    "loading": "Creating Profile...",
+    "errors": {
+      "required": "This field is required",
+      "realGender": "You need to select a real gender.",
+      "invalidDate": "Please enter a valid date.",
+      "invalidDay": "Please enter a valid day.",
+      "invalidMonth": "Please enter a valid month.",
+      "invalidYear": "Please enter a valid year.",
+      "incompleteYear": "Please enter a 4-digit year.",
+      "invalidDayForMonth": "This month does not have that many days.",
+      "dateInFuture": "Date of birth cannot be in the future.",
+      "yearTooFar": "Please enter a more recent year."
+    }
+  },
+  "Settings": {
+    "title": "Settings",
+    "fiveDaySplit": "5-Day Split",
+    "threeDaySplit": "3-Day Split",
+    "display": {
+      "title": "Display Options",
+      "showCardio": "Show indoor cycling",
+      "swap": "Swap order of trainings",
+      "theme": "Theme",
+      "language": "Language",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "profile": {
+      "title": "Profile Settings",
+      "editProfile": "Edit Profile",
+      "description": "Update your personal information here.",
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "successTitle": "Profile Updated",
+      "successDescription": "Your information has been successfully updated.",
+      "yearsOld": "years old"
+    }
+  },
+  "AdminPanel": {
+    "createInvite": "Create invite",
+    "title": "Create an invitation",
+    "description": "Generate a unique link to invite a new user to the platform.",
+    "generateButton": "Generate invite",
+    "loading": "Creating invite link...",
+    "linkGeneratedTitle": "Link Generated!",
+    "linkGeneratedDescription": "Share this link with the new user. It can only be used once.",
+    "copyToClipboard": "Copy to clipboard",
+    "done": "Done",
+    "toast": {
+      "copiedTitle": "Link Copied!",
+      "copiedDescription": "The invitation link has been copied to your clipboard.",
+      "failedTitle": "Invitation Failed"
+    }
+  },
+  "Footer": {
+    "autoSave": "Your data is saved automatically.",
+    "workoutId": "Workout ID:"
+  },
+  "Header": {
+    "statusConnecting": "Connecting to server...",
+    "statusSyncing": "Syncing data...",
+    "statusSynced": "Data is up to date.",
+    "statusError": "Connection error.",
+    "statusOffline": "Offline mode. Data is not saved.",
+    "statusNoProfile": "No workout plan found.",
+    "userWorkout": "{{userName}}'s Workout",
+    "yourCode": "Your Workout ID:",
+    "copyCode": "Copy ID",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "toastCopiedTitle": "Copied!",
+    "toastCopiedDescription": "Workout ID copied to clipboard."
+  },
+  "LoginPage": {
+    "title": "Sign In",
+    "description": "Sign in to access your juicy pancakes.",
+    "button": "Sign in with Google",
+    "loading": "Signing in...",
+    "error": "An unknown error occurred during sign-in.",
+    "uninvited": "An invitation is required to sign up. Please ask an administrator for an invitation link."
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Toggle {theme} mode"
+  },
+  "CardioProtocol": {
+    "title": "Indoor cycling",
+    "warmUp": "Warm-up",
+    "duration": "Duration (mins)",
+    "level": "Level",
+    "rpm": "RPM",
+    "main": "Medium Intensity - Main",
+    "cycles": "Cycles",
+    "highIntensity": "High Intensity",
+    "coolDown": "Cool-down",
+    "durationPlaceholder": "mins",
+    "levelPlaceholder": "lvl",
+    "rpmPlaceholder": "rpm",
+    "cyclesPlaceholder": "x"
+  },
+  "ExerciseCard": {
+    "set": "Set {{i}}",
+    "weight": "Weight (kg)",
+    "level": "Level",
+    "kgPlaceholder": "kg",
+    "levelPlaceholder": "e.g., 5",
+    "weightPlaceholder": "e.g., 10",
+    "toggleSplit": "Toggle Split Weight Mode",
+    "reps": "Reps:",
+    "restStopwatch": "Rest Stopwatch",
+    "machineBusy": "Machine Busy",
+    "markAsDone": "Mark as Done",
+    "completed": "Completed",
+    "undo": "Undo Mark as Done",
+    "sortWeights": "Sort weights"
+  },
+  "StrengthSplit": {
+    "title": "Weights split",
+    "cancelWorkout": "Cancel",
+    "inProgress": "In Progress",
+    "completed": "Completed!",
+    "start": "Start",
+    "breakTime": "Time for a break!",
+    "endBreak": "End Break",
+    "restartDay": "Restart Day",
+    "finishWeek": "Finish Week & Reset All",
+    "dialogs": {
+      "cancelTitle": "Are you sure?",
+      "cancelDescription": "This will cancel your current workout session. You can start it again later.",
+      "cancelConfirm": "Yes, Cancel",
+      "cancelDeny": "No, Continue",
+      "restartTitle": "Are you sure you want to restart?",
+      "restartDescription": "This will reset your progress for this day. This action cannot be undone.",
+      "restartConfirm": "Continue",
+      "restartDeny": "Cancel",
+      "finishTitle": "Congratulations!",
+      "finishDescription": "You've completed all workouts for the week. This will reset all your progress. Are you ready to start a new week?",
+      "finishConfirm": "Reset Week",
+      "finishDeny": "Not Yet"
+    },
+    "fiveDaySplit": {
+      "day1": "Day 1: Chest",
+      "day2": "Day 2: Back",
+      "day3": "Day 3: Legs",
+      "day4": "Day 4: Shoulders",
+      "day5": "Day 5: Arms (Biceps & Triceps)"
+    },
+    "threeDaySplit": {
+      "day1": "Day 1: Chest & Biceps",
+      "day2": "Day 2: Back & Shoulders",
+      "day3": "Day 3: Legs & Triceps"
+    }
+  },
+  "LoadingScreen": {
+    "loading": "Loading your workout"
+  },
+  "Toasts": {
+      "invalidCodeTitle": "Invalid Workout Plan",
+      "invalidCodeDescription": "Could not find a workout plan with the provided ID.",
+      "authErrorTitle": "Authentication Error",
+      "authErrorDescription": "Not signed in.",
+      "permissionErrorTitle": "Firestore Permission Error",
+      "permissionErrorDescription": "The database rules are blocking access. Please copy the rules below and paste them in your Firebase Console (Firestore > Rules).",
+      "copyRules": "Copy Rules",
+      "rulesCopiedTitle": "Copied!",
+      "rulesCopiedDescription": "Firestore rules copied to clipboard.",
+      "authFailedTitle": "Authentication Failed",
+      "authFailedDescription": "Could not sign in. Check your Firebase API key and Auth settings.",
+      "cannotCancelTitle": "Cannot Cancel",
+      "cannotCancelDescription": "Cannot cancel a workout that has already started.",
+      "invalidInviteTitle": "Invalid Invitation",
+      "invalidInviteDescription": "This invitation link is invalid or has already been used.",
+      "inviteRequiredTitle": "Invitation Required",
+      "inviteRequiredDescription": "An invitation from an administrator is required to use this application."
+  },
+  "Exercises": {
+    "dumbbellBenchPress": "Dumbbell Bench Press",
+    "inclineDumbbellBenchPress": "Incline Dumbbell Bench Press",
+    "machineFly": "Machine Fly (Pec Deck)",
+    "cableLatPulldown": "Cable Lat Pulldown",
+    "cableSeatedRow": "Cable Seated Row",
+    "machineVerticalRow": "Machine Vertical Row",
+    "machineLegPress": "Machine Leg Press",
+    "machineSeatedLegCurl": "Machine Seated Leg Curl",
+    "machineLegExtension": "Machine Leg Extension",
+    "machineShoulderPress": "Machine Shoulder Press",
+    "machineDeltoidRaise": "Machine Deltoid Raise",
+    "facePulls": "Face Pulls (with Rope)",
+    "altBicepCurl": "Biceps: Alt. Bicep Curl",
+    "hammerCurl": "Biceps: Hammer Curl",
+    "machineDip": "Triceps: Machine Dip",
+    "cablePushdown": "Triceps: Cable Pushdown",
+    "tricepKickback": "Triceps: Tricep Kickback",
+    "hints": {
+      "dragDown": "(drag down)",
+      "raiseUp": "(raise up)"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+
 import type {Config} from 'tailwindcss';
 
 export default {
@@ -8,10 +9,17 @@ export default {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
       fontFamily: {
-        body: ['Poppins', 'sans-serif'],
-        headline: ['Poppins', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+        headline: ['Inter', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -88,10 +96,15 @@ export default {
             height: '0',
           },
         },
+        'highlight-border-pulse': {
+          '0%, 100%': { boxShadow: '0 0 0 0px hsl(var(--chart-2) / 0.0)' },
+          '50%': { boxShadow: '0 0 0 4px hsl(var(--chart-2) / 0.7)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'highlight-border-pulse': 'highlight-border-pulse 2s ease-out',
       },
     },
   },
